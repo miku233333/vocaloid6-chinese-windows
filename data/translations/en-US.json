@@ -1,0 +1,157 @@
+{
+  "version": "1.0.0",
+  "language": "en-US",
+  "languageName": "English (Reference)",
+  "lastUpdated": "2026-03-29",
+  "translations": {
+    "MainWindow.Title": "VOCALOID6 Editor",
+    "MainWindow.NewProject": "New Project",
+    "MainWindow.OpenProject": "Open Project",
+    "MainWindow.SaveProject": "Save Project",
+    "MainWindow.SaveAs": "Save As",
+    "MainWindow.Export": "Export",
+    "MainWindow.Exit": "Exit",
+    
+    "Menu.File": "File",
+    "Menu.Edit": "Edit",
+    "Menu.View": "View",
+    "Menu.Project": "Project",
+    "Menu.Track": "Track",
+    "Menu.Tool": "Tool",
+    "Menu.Help": "Help",
+    
+    "Edit.Undo": "Undo",
+    "Edit.Redo": "Redo",
+    "Edit.Cut": "Cut",
+    "Edit.Copy": "Copy",
+    "Edit.Paste": "Paste",
+    "Edit.Delete": "Delete",
+    "Edit.SelectAll": "Select All",
+    
+    "View.ZoomIn": "Zoom In",
+    "View.ZoomOut": "Zoom Out",
+    "View.ZoomFit": "Fit to Window",
+    "View.ActualSize": "Actual Size",
+    "View.Grid": "Grid",
+    "View.Ruler": "Ruler",
+    
+    "Tool.Pencil": "Pencil Tool",
+    "Tool.Line": "Line Tool",
+    "Tool.Curve": "Curve Tool",
+    "Tool.Eraser": "Eraser",
+    "Tool.Select": "Select Tool",
+    "Tool.Draw": "Draw Tool",
+    
+    "Track.AddTrack": "Add Track",
+    "Track.DeleteTrack": "Delete Track",
+    "Track.RenameTrack": "Rename Track",
+    "Track.Mute": "Mute",
+    "Track.Solo": "Solo",
+    
+    "Parameter.PitchBend": "Pitch Bend",
+    "Parameter.Vibrato": "Vibrato",
+    "Parameter.Dynamics": "Dynamics",
+    "Parameter.Breathiness": "Breathiness",
+    "Parameter.Brightness": "Brightness",
+    "Parameter.Opening": "Opening",
+    
+    "NoteProperties.Length": "Length",
+    "NoteProperties.Pitch": "Pitch",
+    "NoteProperties.Velocity": "Velocity",
+    "NoteProperties.Lyric": "Lyric",
+    
+    "Playback.Play": "Play",
+    "Playback.Pause": "Pause",
+    "Playback.Stop": "Stop",
+    "Playback.Rewind": "Rewind",
+    "Playback.Record": "Record",
+    
+    "Transport.Playhead": "Playhead",
+    "Transport.Loop": "Loop",
+    "Transport.Metronome": "Metronome",
+    "Transport.CountIn": "Count In",
+    
+    "Settings.General": "General Settings",
+    "Settings.Audio": "Audio Settings",
+    "Settings.MIDI": "MIDI Settings",
+    "Settings.Language": "Language Settings",
+    "Settings.About": "About",
+    
+    "Dialog.OK": "OK",
+    "Dialog.Cancel": "Cancel",
+    "Dialog.Yes": "Yes",
+    "Dialog.No": "No",
+    "Dialog.Close": "Close",
+    "Dialog.Save": "Save",
+    "Dialog.DontSave": "Don't Save",
+    
+    "Message.UnsavedChanges": "You have unsaved changes. Do you want to save?",
+    "Message.FileNotFound": "File not found",
+    "Message.SaveSuccess": "Saved successfully",
+    "Message.SaveFailed": "Failed to save",
+    "Message.ImportSuccess": "Imported successfully",
+    "Message.ExportSuccess": "Exported successfully",
+    
+    "Status.Ready": "Ready",
+    "Status.Playing": "Playing",
+    "Status.Recording": "Recording",
+    "Status.Loading": "Loading",
+    "Status.Saving": "Saving",
+    
+    "Error.Generic": "An error occurred",
+    "Error.FileAccess": "Cannot access file",
+    "Error.AudioDevice": "Audio device error",
+    "Error.Memory": "Out of memory",
+    "Error.Network": "Network error",
+    
+    "Help.UserManual": "User Manual",
+    "Help.Tutorials": "Tutorials",
+    "Help.FAQ": "FAQ",
+    "Help.Contact": "Contact Us",
+    "Help.CheckUpdate": "Check for Updates",
+    
+    "VoiceBank.Select": "Select Voicebank",
+    "VoiceBank.Load": "Load Voicebank",
+    "VoiceBank.Unload": "Unload Voicebank",
+    "VoiceBank.Settings": "Voicebank Settings",
+    
+    "Mixer.Master": "Master Output",
+    "Mixer.Volume": "Volume",
+    "Mixer.Pan": "Pan",
+    "Mixer.EQ": "Equalizer",
+    "Mixer.Effects": "Effects",
+    
+    "PianoRoll.Note": "Note",
+    "PianoRoll.Key": "Key",
+    "PianoRoll.Octave": "Octave",
+    "PianoRoll.Scale": "Scale",
+    
+    "Automation.Curve": "Automation Curve",
+    "Automation.Point": "Control Point",
+    "Automation.Draw": "Draw Automation",
+    "Automation.Clear": "Clear Automation",
+    
+    "Time.Signature": "Time Signature",
+    "Time.Tempo": "Tempo",
+    "Time.BPM": "BPM",
+    "Time.Measure": "Measure",
+    "Time.Beat": "Beat",
+    
+    "FileFilter.Project": "VOCALOID6 Project Files (*.vpr)",
+    "FileFilter.Audio": "Audio Files (*.wav;*.mp3;*.aiff)",
+    "FileFilter.MIDI": "MIDI Files (*.mid;*.midi)",
+    "FileFilter.All": "All Files (*.*)",
+    
+    "LanguageSwitcher.Title": "Language Switcher",
+    "LanguageSwitcher.Current": "Current Language",
+    "LanguageSwitcher.Available": "Available Languages",
+    "LanguageSwitcher.Apply": "Apply",
+    "LanguageSwitcher.Restart": "Restart required to apply changes"
+  },
+  
+  "comments": {
+    "note": "This is the reference English translation file",
+    "usage": "Place this file in data/translations/ directory",
+    "contribution": "Contributions welcome, see CONTRIBUTING.md"
+  }
+}

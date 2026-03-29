@@ -1,0 +1,294 @@
+# VOCALOID6 專業術語庫
+# 用於確保翻譯一致性
+# 格式：YAML
+
+vocaloid_terms:
+  # 基礎編輯
+  - id: "note"
+    en: "Note"
+    zh_cn: "音符"
+    zh_tw: "音符"
+    ja: "音符"
+    context: ["editor", "piano_roll"]
+    definition: "五線譜上的單個音符單位"
+    
+  - id: "pitch_bend"
+    en: "Pitch Bend"
+    zh_cn: "音高彎音"
+    zh_tw: "音高滑音"
+    ja: "ピッチベンド"
+    context: ["parameter", "editor"]
+    definition: "改變音符音高的參數曲線"
+    
+  - id: "vibrato"
+    en: "Vibrato"
+    zh_cn: "顫音"
+    zh_tw: "抖音"
+    ja: "ビブラート"
+    context: ["parameter"]
+    definition: "音高的周期性波動效果"
+    
+  - id: "dynamics"
+    en: "Dynamics"
+    zh_cn: "動態"
+    zh_tw: "動態"
+    ja: "ダイナミクス"
+    context: ["parameter"]
+    definition: "音量強弱控制參數"
+    
+  - id: "breathiness"
+    en: "Breathiness"
+    zh_cn: "氣聲"
+    zh_tw: "氣聲"
+    ja: "ブレス"
+    context: ["parameter"]
+    definition: "呼吸聲混合程度"
+    
+  - id: "brightness"
+    en: "Brightness"
+    zh_cn: "亮度"
+    zh_tw: "亮度"
+    ja: "ブライトネス"
+    context: ["parameter"]
+    definition: "音色明亮度控制"
+    
+  - id: "opening"
+    en: "Opening"
+    zh_cn: "開口度"
+    zh_tw: "開口度"
+    ja: "開口度"
+    context: ["parameter"]
+    definition: "發音開口大小控制"
+
+  # 工具類
+  - id: "pencil_tool"
+    en: "Pencil Tool"
+    zh_cn: "鉛筆工具"
+    zh_tw: "鉛筆工具"
+    ja: "鉛筆ツール"
+    context: ["tool"]
+    definition: "用於繪製音符的工具"
+    
+  - id: "eraser"
+    en: "Eraser"
+    zh_cn: "橡皮擦"
+    zh_tw: "橡皮擦"
+    ja: "消しゴム"
+    context: ["tool"]
+    definition: "用於刪除音符的工具"
+    
+  - id: "selection_tool"
+    en: "Selection Tool"
+    zh_cn: "選擇工具"
+    zh_tw: "選擇工具"
+    ja: "選択ツール"
+    context: ["tool"]
+    definition: "用於選擇音符的工具"
+
+  # 音軌相關
+  - id: "track"
+    en: "Track"
+    zh_cn: "音軌"
+    zh_tw: "音軌"
+    ja: "トラック"
+    context: ["project"]
+    definition: "獨立的歌聲軌道"
+    
+  - id: "mute"
+    en: "Mute"
+    zh_cn: "靜音"
+    zh_tw: "靜音"
+    ja: "ミュート"
+    context: ["track", "mixer"]
+    definition: "將音軌設為靜音"
+    
+  - id: "solo"
+    en: "Solo"
+    zh_cn: "獨奏"
+    zh_tw: "獨奏"
+    ja: "ソロ"
+    context: ["track", "mixer"]
+    definition: "僅播放該音軌"
+
+  # 播放控制
+  - id: "playhead"
+    en: "Playhead"
+    zh_cn: "播放頭"
+    zh_tw: "播放頭"
+    ja: "再生ヘッド"
+    context: ["transport"]
+    definition: "當前播放位置指示器"
+    
+  - id: "loop"
+    en: "Loop"
+    zh_cn: "循環"
+    zh_tw: "循環"
+    ja: "ループ"
+    context: ["transport"]
+    definition: "循環播放指定範圍"
+    
+  - id: "metronome"
+    en: "Metronome"
+    zh_cn: "節拍器"
+    zh_tw: "節拍器"
+    ja: "メトロノーム"
+    context: ["transport"]
+    definition: "播放節拍提示音"
+
+  # 文件操作
+  - id: "project"
+    en: "Project"
+    zh_cn: "項目"
+    zh_tw: "專案"
+    ja: "プロジェクト"
+    context: ["file"]
+    definition: "VOCALOID6 工程文件"
+    
+  - id: "export"
+    en: "Export"
+    zh_cn: "导出"
+    zh_tw: "匯出"
+    ja: "エクスポート"
+    context: ["file"]
+    definition: "將作品導出為音頻文件"
+    
+  - id: "import"
+    en: "Import"
+    zh_cn: "导入"
+    zh_tw: "匯入"
+    ja: "インポート"
+    context: ["file"]
+    definition: "從外部導入 MIDI 或音頻"
+
+  # 混音器
+  - id: "mixer"
+    en: "Mixer"
+    zh_cn: "混音器"
+    zh_tw: "混音器"
+    ja: "ミキサー"
+    context: ["audio"]
+    definition: "音軌混音控制台"
+    
+  - id: "volume"
+    en: "Volume"
+    zh_cn: "音量"
+    zh_tw: "音量"
+    ja: "ボリューム"
+    context: ["mixer"]
+    definition: "音軌音量控制"
+    
+  - id: "pan"
+    en: "Pan"
+    zh_cn: "声像"
+    zh_tw: "聲像"
+    ja: "パン"
+    context: ["mixer"]
+    definition: "左右聲道平衡"
+    
+  - id: "eq"
+    en: "EQ / Equalizer"
+    zh_cn: "均衡器"
+    zh_tw: "等化器"
+    ja: "イコライザー"
+    context: ["mixer", "effects"]
+    definition: "頻率均衡器"
+
+  # 自動化
+  - id: "automation"
+    en: "Automation"
+    zh_cn: "自动化"
+    zh_tw: "自動化"
+    ja: "オートメーション"
+    context: ["editor"]
+    definition: "參數隨時間變化的曲線"
+    
+  - id: "curve"
+    en: "Curve"
+    zh_cn: "曲线"
+    zh_tw: "曲線"
+    ja: "カーブ"
+    context: ["automation"]
+    definition: "參數變化曲線"
+
+  # 時間相關
+  - id: "tempo"
+    en: "Tempo"
+    zh_cn: "速度"
+    zh_tw: "速度"
+    ja: "テンポ"
+    context: ["time"]
+    definition: "樂曲速度（BPM）"
+    
+  - id: "bpm"
+    en: "BPM"
+    zh_cn: "每分钟拍数"
+    zh_tw: "每分鐘拍數"
+    ja: "BPM"
+    context: ["time"]
+    definition: "Beats Per Minute"
+    
+  - id: "time_signature"
+    en: "Time Signature"
+    zh_cn: "拍号"
+    zh_tw: "拍號"
+    ja: "拍子"
+    context: ["time"]
+    definition: "小節拍號（如 4/4、3/4）"
+    
+  - id: "measure"
+    en: "Measure"
+    zh_cn: "小节"
+    zh_tw: "小節"
+    ja: "小節"
+    context: ["time"]
+    definition: "音樂小節單位"
+    
+  - id: "beat"
+    en: "Beat"
+    zh_cn: "拍子"
+    zh_tw: "拍子"
+    ja: "拍"
+    context: ["time"]
+    definition: "節奏拍子單位"
+
+  # 歌聲庫
+  - id: "voicebank"
+    en: "Voicebank"
+    zh_cn: "歌声库"
+    zh_tw: "歌聲庫"
+    ja: "ボイスバンク"
+    context: ["voice"]
+    definition: "AI 歌聲數據庫"
+    
+  - id: "ai"
+    en: "AI"
+    zh_cn: "AI"
+    zh_tw: "AI"
+    ja: "AI"
+    context: ["voice"]
+    definition: "人工智能歌聲合成"
+
+  # 其他
+  - id: "lyric"
+    en: "Lyric"
+    zh_cn: "歌词"
+    zh_tw: "歌詞"
+    ja: "歌詞"
+    context: ["note"]
+    definition: "音符對應的歌詞"
+    
+  - id: "velocity"
+    en: "Velocity"
+    zh_cn: "力度"
+    zh_tw: "力度"
+    ja: "ベロシティ"
+    context: ["note"]
+    definition: "音符發音強度"
+    
+  - id: "piano_roll"
+    en: "Piano Roll"
+    zh_cn: "钢琴卷帘"
+    zh_tw: "鋼琴捲簾"
+    ja: "ピアノロール"
+    context: ["editor"]
+    definition: "音符編輯視圖"

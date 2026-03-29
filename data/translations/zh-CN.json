@@ -1,0 +1,157 @@
+{
+  "version": "1.0.0",
+  "language": "zh-CN",
+  "languageName": "简体中文",
+  "lastUpdated": "2026-03-29",
+  "translations": {
+    "MainWindow.Title": "VOCALOID6 编辑器",
+    "MainWindow.NewProject": "新建项目",
+    "MainWindow.OpenProject": "打开项目",
+    "MainWindow.SaveProject": "保存项目",
+    "MainWindow.SaveAs": "另存为",
+    "MainWindow.Export": "导出",
+    "MainWindow.Exit": "退出",
+    
+    "Menu.File": "文件",
+    "Menu.Edit": "编辑",
+    "Menu.View": "视图",
+    "Menu.Project": "项目",
+    "Menu.Track": "音轨",
+    "Menu.Tool": "工具",
+    "Menu.Help": "帮助",
+    
+    "Edit.Undo": "撤销",
+    "Edit.Redo": "重做",
+    "Edit.Cut": "剪切",
+    "Edit.Copy": "复制",
+    "Edit.Paste": "粘贴",
+    "Edit.Delete": "删除",
+    "Edit.SelectAll": "全选",
+    
+    "View.ZoomIn": "放大",
+    "View.ZoomOut": "缩小",
+    "View.ZoomFit": "适应窗口",
+    "View.ActualSize": "实际大小",
+    "View.Grid": "网格",
+    "View.Ruler": "标尺",
+    
+    "Tool.Pencil": "铅笔工具",
+    "Tool.Line": "直线工具",
+    "Tool.Curve": "曲线工具",
+    "Tool.Eraser": "橡皮擦",
+    "Tool.Select": "选择工具",
+    "Tool.Draw": "绘图工具",
+    
+    "Track.AddTrack": "添加音轨",
+    "Track.DeleteTrack": "删除音轨",
+    "Track.RenameTrack": "重命名音轨",
+    "Track.Mute": "静音",
+    "Track.Solo": "独奏",
+    
+    "Parameter.PitchBend": "音高弯音",
+    "Parameter.Vibrato": "颤音",
+    "Parameter.Dynamics": "动态",
+    "Parameter.Breathiness": "气声",
+    "Parameter.Brightness": "亮度",
+    "Parameter.Opening": "开口度",
+    
+    "NoteProperties.Length": "长度",
+    "NoteProperties.Pitch": "音高",
+    "NoteProperties.Velocity": "力度",
+    "NoteProperties.Lyric": "歌词",
+    
+    "Playback.Play": "播放",
+    "Playback.Pause": "暂停",
+    "Playback.Stop": "停止",
+    "Playback.Rewind": "倒带",
+    "Playback.Record": "录音",
+    
+    "Transport.Playhead": "播放头",
+    "Transport.Loop": "循环",
+    "Transport.Metronome": "节拍器",
+    "Transport.CountIn": "预拍",
+    
+    "Settings.General": "常规设置",
+    "Settings.Audio": "音频设置",
+    "Settings.MIDI": "MIDI 设置",
+    "Settings.Language": "语言设置",
+    "Settings.About": "关于",
+    
+    "Dialog.OK": "确定",
+    "Dialog.Cancel": "取消",
+    "Dialog.Yes": "是",
+    "Dialog.No": "否",
+    "Dialog.Close": "关闭",
+    "Dialog.Save": "保存",
+    "Dialog.DontSave": "不保存",
+    
+    "Message.UnsavedChanges": "有未保存的更改，要保存吗？",
+    "Message.FileNotFound": "找不到文件",
+    "Message.SaveSuccess": "保存成功",
+    "Message.SaveFailed": "保存失败",
+    "Message.ImportSuccess": "导入成功",
+    "Message.ExportSuccess": "导出成功",
+    
+    "Status.Ready": "就绪",
+    "Status.Playing": "播放中",
+    "Status.Recording": "录音中",
+    "Status.Loading": "加载中",
+    "Status.Saving": "保存中",
+    
+    "Error.Generic": "发生错误",
+    "Error.FileAccess": "无法访问文件",
+    "Error.AudioDevice": "音频设备错误",
+    "Error.Memory": "内存不足",
+    "Error.Network": "网络错误",
+    
+    "Help.UserManual": "用户手册",
+    "Help.Tutorials": "教程视频",
+    "Help.FAQ": "常见问题",
+    "Help.Contact": "联系我们",
+    "Help.CheckUpdate": "检查更新",
+    
+    "VoiceBank.Select": "选择歌声库",
+    "VoiceBank.Load": "加载歌声库",
+    "VoiceBank.Unload": "卸载歌声库",
+    "VoiceBank.Settings": "歌声库设置",
+    
+    "Mixer.Master": "主输出",
+    "Mixer.Volume": "音量",
+    "Mixer.Pan": "声像",
+    "Mixer.EQ": "均衡器",
+    "Mixer.Effects": "效果器",
+    
+    "PianoRoll.Note": "音符",
+    "PianoRoll.Key": "琴键",
+    "PianoRoll.Octave": "八度",
+    "PianoRoll.Scale": "音阶",
+    
+    "Automation.Curve": "自动化曲线",
+    "Automation.Point": "控制点",
+    "Automation.Draw": "绘制自动化",
+    "Automation.Clear": "清除自动化",
+    
+    "Time.Signature": "拍号",
+    "Time.Tempo": "速度",
+    "Time.BPM": "每分钟拍数",
+    "Time.Measure": "小节",
+    "Time.Beat": "拍子",
+    
+    "FileFilter.Project": "VOCALOID6 项目文件 (*.vpr)",
+    "FileFilter.Audio": "音频文件 (*.wav;*.mp3;*.aiff)",
+    "FileFilter.MIDI": "MIDI 文件 (*.mid;*.midi)",
+    "FileFilter.All": "所有文件 (*.*)",
+    
+    "LanguageSwitcher.Title": "语言切换",
+    "LanguageSwitcher.Current": "当前语言",
+    "LanguageSwitcher.Available": "可用语言",
+    "LanguageSwitcher.Apply": "应用",
+    "LanguageSwitcher.Restart": "需要重新启动以应用更改"
+  },
+  
+  "comments": {
+    "note": "此翻译文件采用 JSON 格式，支持 UTF-8 编码",
+    "usage": "将此文件放置于 data/translations/ 目录下",
+    "contribution": "欢迎贡献翻译，请参阅 CONTRIBUTING.md"
+  }
+}

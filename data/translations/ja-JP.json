@@ -1,0 +1,157 @@
+{
+  "version": "1.0.0",
+  "language": "ja-JP",
+  "languageName": "日本語",
+  "lastUpdated": "2026-03-29",
+  "translations": {
+    "MainWindow.Title": "VOCALOID6 エディター",
+    "MainWindow.NewProject": "新規プロジェクト",
+    "MainWindow.OpenProject": "プロジェクトを開く",
+    "MainWindow.SaveProject": "プロジェクトを保存",
+    "MainWindow.SaveAs": "名前を付けて保存",
+    "MainWindow.Export": "エクスポート",
+    "MainWindow.Exit": "終了",
+    
+    "Menu.File": "ファイル",
+    "Menu.Edit": "編集",
+    "Menu.View": "表示",
+    "Menu.Project": "プロジェクト",
+    "Menu.Track": "トラック",
+    "Menu.Tool": "ツール",
+    "Menu.Help": "ヘルプ",
+    
+    "Edit.Undo": "元に戻す",
+    "Edit.Redo": "やり直し",
+    "Edit.Cut": "切り取り",
+    "Edit.Copy": "コピー",
+    "Edit.Paste": "貼り付け",
+    "Edit.Delete": "削除",
+    "Edit.SelectAll": "すべて選択",
+    
+    "View.ZoomIn": "拡大",
+    "View.ZoomOut": "縮小",
+    "View.ZoomFit": "ウィンドウに合わせる",
+    "View.ActualSize": "実際のサイズ",
+    "View.Grid": "グリッド",
+    "View.Ruler": "定規",
+    
+    "Tool.Pencil": "鉛筆ツール",
+    "Tool.Line": "直線ツール",
+    "Tool.Curve": "曲線ツール",
+    "Tool.Eraser": "消しゴム",
+    "Tool.Select": "選択ツール",
+    "Tool.Draw": "描画ツール",
+    
+    "Track.AddTrack": "トラックを追加",
+    "Track.DeleteTrack": "トラックを削除",
+    "Track.RenameTrack": "トラック名を変更",
+    "Track.Mute": "ミュート",
+    "Track.Solo": "ソロ",
+    
+    "Parameter.PitchBend": "ピッチベンド",
+    "Parameter.Vibrato": "ビブラート",
+    "Parameter.Dynamics": "ダイナミクス",
+    "Parameter.Breathiness": "ブレス",
+    "Parameter.Brightness": "ブライトネス",
+    "Parameter.Opening": "開口度",
+    
+    "NoteProperties.Length": "長さ",
+    "NoteProperties.Pitch": "音高",
+    "NoteProperties.Velocity": "ベロシティ",
+    "NoteProperties.Lyric": "歌詞",
+    
+    "Playback.Play": "再生",
+    "Playback.Pause": "一時停止",
+    "Playback.Stop": "停止",
+    "Playback.Rewind": "巻き戻し",
+    "Playback.Record": "録音",
+    
+    "Transport.Playhead": "再生ヘッド",
+    "Transport.Loop": "ループ",
+    "Transport.Metronome": "メトロノーム",
+    "Transport.CountIn": "カウントイン",
+    
+    "Settings.General": "一般設定",
+    "Settings.Audio": "オーディオ設定",
+    "Settings.MIDI": "MIDI 設定",
+    "Settings.Language": "言語設定",
+    "Settings.About": "バージョン情報",
+    
+    "Dialog.OK": "OK",
+    "Dialog.Cancel": "キャンセル",
+    "Dialog.Yes": "はい",
+    "Dialog.No": "いいえ",
+    "Dialog.Close": "閉じる",
+    "Dialog.Save": "保存",
+    "Dialog.DontSave": "保存しない",
+    
+    "Message.UnsavedChanges": "保存されていない変更があります。保存しますか？",
+    "Message.FileNotFound": "ファイルが見つかりません",
+    "Message.SaveSuccess": "保存しました",
+    "Message.SaveFailed": "保存に失敗しました",
+    "Message.ImportSuccess": "インポートしました",
+    "Message.ExportSuccess": "エクスポートしました",
+    
+    "Status.Ready": "準備完了",
+    "Status.Playing": "再生中",
+    "Status.Recording": "録音中",
+    "Status.Loading": "読み込み中",
+    "Status.Saving": "保存中",
+    
+    "Error.Generic": "エラーが発生しました",
+    "Error.FileAccess": "ファイルにアクセスできません",
+    "Error.AudioDevice": "オーディオデバイスのエラー",
+    "Error.Memory": "メモリが不足しています",
+    "Error.Network": "ネットワークエラー",
+    
+    "Help.UserManual": "ユーザーマニュアル",
+    "Help.Tutorials": "チュートリアル動画",
+    "Help.FAQ": "よくある質問",
+    "Help.Contact": "お問い合わせ",
+    "Help.CheckUpdate": "アップデートを確認",
+    
+    "VoiceBank.Select": "ボイスバンクを選択",
+    "VoiceBank.Load": "ボイスバンクを読み込み",
+    "VoiceBank.Unload": "ボイスバンクをアンロード",
+    "VoiceBank.Settings": "ボイスバンク設定",
+    
+    "Mixer.Master": "マスター出力",
+    "Mixer.Volume": "ボリューム",
+    "Mixer.Pan": "パン",
+    "Mixer.EQ": "イコライザー",
+    "Mixer.Effects": "エフェクト",
+    
+    "PianoRoll.Note": "ノート",
+    "PianoRoll.Key": "鍵盤",
+    "PianoRoll.Octave": "オクターブ",
+    "PianoRoll.Scale": "スケール",
+    
+    "Automation.Curve": "オートメーションカーブ",
+    "Automation.Point": "コントロールポイント",
+    "Automation.Draw": "オートメーションを描画",
+    "Automation.Clear": "オートメーションをクリア",
+    
+    "Time.Signature": "拍子",
+    "Time.Tempo": "テンポ",
+    "Time.BPM": "BPM",
+    "Time.Measure": "小節",
+    "Time.Beat": "拍",
+    
+    "FileFilter.Project": "VOCALOID6 プロジェクトファイル (*.vpr)",
+    "FileFilter.Audio": "オーディオファイル (*.wav;*.mp3;*.aiff)",
+    "FileFilter.MIDI": "MIDI ファイル (*.mid;*.midi)",
+    "FileFilter.All": "すべてのファイル (*.*)",
+    
+    "LanguageSwitcher.Title": "言語切り替え",
+    "LanguageSwitcher.Current": "現在の言語",
+    "LanguageSwitcher.Available": "利用可能な言語",
+    "LanguageSwitcher.Apply": "適用",
+    "LanguageSwitcher.Restart": "変更を適用するには再起動が必要です"
+  },
+  
+  "comments": {
+    "note": "この翻訳ファイルは JSON 形式で、UTF-8 エンコーディングをサポートしています",
+    "usage": "このファイルを data/translations/ ディレクトリに配置してください",
+    "contribution": "翻訳の貢献を歓迎します。CONTRIBUTING.md をご覧ください"
+  }
+}
